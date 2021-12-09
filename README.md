@@ -29,7 +29,7 @@ class My_project(object):
     """
 
     @cherrypy.expose
-    def my_page(self, <param-1>: 
+    def my_page(self, <param-1>): 
         <param-2 = "some text">
         <param-3 = some_value>
         return str(page_render.my_page(<param-1, param-2, param-3, etc>)) # be sure to return a string, my_page == template file.
