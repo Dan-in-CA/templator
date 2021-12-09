@@ -3,7 +3,7 @@ Simple, elegant Python based web templating (part of web.py).
 If you are familiar with Python, there is no new syntax to learn.  
 This is a stand-alone version of templator.
 
-## Ussage
+## Usage
 Clone the templaltor package into your project and add: 
 ```python
 from templator import template
