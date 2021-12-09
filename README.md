@@ -21,7 +21,7 @@ Then add e.g.:
 ```python
 page_render = template.render("<templates folder>", globals=template_globals, <base="page_base">)
 ```
-Then, for exampl in cherrypy:
+Then, for example, in cherrypy:
 ```python
 class My_project(object):
 
