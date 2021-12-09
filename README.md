@@ -1,5 +1,5 @@
 # Templator
-Simple, elegant Python based templating (part of web.py).
+Simple, elegant Python based web templating (part of web.py).
 If you are familiar with Python, there is no new syntax to learn.
 
 ## Ussage
