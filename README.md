@@ -24,6 +24,9 @@ page_render = template.render("<templates folder>", globals=template_globals, <b
 Then, for example, in cherrypy:
 ```python
 class My_project(object):
+    """
+    Base class for project pages
+    """
 
     @cherrypy.expose
     def my_page(self):  
