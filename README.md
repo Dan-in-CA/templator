@@ -33,7 +33,8 @@ class My_project(object):
         [param-2 = "some text"]
         [param-3 = some_value]
         return str(page_render.my_page([param-1, param-2, param-3, other_var, etc])   
-        # be sure to return a string, my_page == template file.
+        # my_page == template file.
+        # be sure to return a string. 
 ```
 See the web.py templator documentation for details on setting up a template file.
 
