@@ -19,7 +19,7 @@ template_globals = {
 ```
 Then add e.g.:
 ```python
-page_render = template.render("<templates folder>", globals=template_globals, <base="page_base">)
+page_render = template.render("<templates folder>", globals=template_globals, [base="page_base"])
 ```
 Then, for example, in cherrypy:
 ```python
@@ -29,10 +29,10 @@ class My_project(object):
     """
 
     @cherrypy.expose
-    def my_page(self, <param-1>): 
-        <param-2 = "some text">
-        <param-3 = some_value>
-        return str(page_render.my_page(<param-1, param-2, param-3, other_var, etc>)   
+    def my_page(self, [param-1]): 
+        [param-2 = "some text"]
+        [param-3 = some_value]
+        return str(page_render.my_page([param-1, param-2, param-3, other_var, etc])   
         # be sure to return a string, my_page == template file.
 ```
 See the web.py templator documentation for details on setting up a template file.
